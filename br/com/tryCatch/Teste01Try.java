@@ -20,7 +20,7 @@ public class Teste01Try {
                 double altura;
                 System.out.println("Digite o seu nome: ");
                 nome = sc.nextLine();
-                // Verificação do nome.
+                // Verificar nome.
                 if (nome.matches("[a-zA-Z ]+")) {
                     System.out.println("Digite o nome que gostaria de ser chamado(a) ");
                     apelido = sc.nextLine();
